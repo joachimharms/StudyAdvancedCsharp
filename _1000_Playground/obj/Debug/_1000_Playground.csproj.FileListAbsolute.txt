@@ -1,0 +1,7 @@
+E:\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\_1000_Playground\bin\Debug\_1000_Playground.exe.config
+E:\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\_1000_Playground\bin\Debug\_1000_Playground.exe
+E:\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\_1000_Playground\bin\Debug\_1000_Playground.pdb
+E:\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\_1000_Playground\obj\Debug\_1000_Playground.csprojResolveAssemblyReference.cache
+E:\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\_1000_Playground\obj\Debug\_1000_Playground.csproj.CoreCompileInputs.cache
+E:\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\_1000_Playground\obj\Debug\_1000_Playground.exe
+E:\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\_1000_Playground\obj\Debug\_1000_Playground.pdb
