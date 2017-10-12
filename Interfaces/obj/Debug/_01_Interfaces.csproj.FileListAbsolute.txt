@@ -1,0 +1,7 @@
+E:\MeineDateien_HP\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\Interfaces\obj\Debug\_01_Interfaces.csprojResolveAssemblyReference.cache
+E:\MeineDateien_HP\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\Interfaces\obj\Debug\_01_Interfaces.csproj.CoreCompileInputs.cache
+E:\MeineDateien_HP\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\Interfaces\bin\Debug\Interfaces.exe.config
+E:\MeineDateien_HP\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\Interfaces\bin\Debug\Interfaces.exe
+E:\MeineDateien_HP\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\Interfaces\bin\Debug\Interfaces.pdb
+E:\MeineDateien_HP\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\Interfaces\obj\Debug\Interfaces.exe
+E:\MeineDateien_HP\2.Dev\2.PrivateProjects\C#\2.TutorialProjects\StudyAdvancedCsharp\Interfaces\obj\Debug\Interfaces.pdb
