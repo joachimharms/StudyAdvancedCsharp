@@ -70,7 +70,7 @@ namespace _1000_Playground
                     }
                     else return;
                 }
-                
+
                 if (saeugetier is Katze)
                 {
                     Console.WriteLine("Miau!");
@@ -94,7 +94,28 @@ namespace _1000_Playground
                         Console.WriteLine();
                     }
                     else return;
-                   
+
+                    // Wir können kein Interface instanziieren, aber wir können mit einer Referenzvariablen vom Interfacetyp auf 
+                    // ein abgeleitetes Objekt referenzieren:
+                    ILebewesen schnecke01 = new Schnecke();
+                    var schnecke02 = new Schnecke();
+
+                    // Die Schnecke vom Interfacetyp kann nun auf alle Eigenschaften und Verhalten
+                    // des implementierten Interfaces zugreifen, solange sie vom Interface typ ist.
+                    // Diese Schnecke kann aber nicht auf die Klassenspezifische Methoden und Eigenschaften
+                    // zugreifen.           
+                    schnecke01.Ausscheiden();
+                    // ILebewesen enthält keine Definition für Schleimen(). Darum gibt es Kompilierfehler:
+                    //schnecke01.Schleimen();
+
+                    // Die Schnecke vom Typ Schnecke kann dagegen selbstverständlich auf 
+                    // alle member der Klasse Schnecke zugreifen:
+                    schnecke02.Schleimen();
+
+
+                    // Instanziere eine Klasse, welche zwei Schnittstellen implementiert hat, welche diesselbe Methode bereitstellen:
+                    var testClass = new TestClass();
+                    testClass.InterfaceMethod();
                 }
             }
         }
