@@ -1,4 +1,4 @@
-﻿namespace _1000_Playground
+﻿namespace _01_Interfaces_Playground
 {
     public interface I1
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1000_Playground
+namespace _01_Interfaces_Playground
 {
     class Program
     {
@@ -95,7 +95,7 @@ namespace _1000_Playground
                     }
                     else return;
 
-                    // Wir können kein Interface instanziieren, aber wir können mit einer Referenzvariablen vom Interfacetyp auf 
+                    // Wir können kein Interface instanziieren, aber wir können mit einer Referenzvariablen vom Interfacetyp auf
                     // ein abgeleitetes Objekt referenzieren:
                     ILebewesen schnecke01 = new Schnecke();
                     var schnecke02 = new Schnecke();
@@ -103,19 +103,24 @@ namespace _1000_Playground
                     // Die Schnecke vom Interfacetyp kann nun auf alle Eigenschaften und Verhalten
                     // des implementierten Interfaces zugreifen, solange sie vom Interface typ ist.
                     // Diese Schnecke kann aber nicht auf die Klassenspezifische Methoden und Eigenschaften
-                    // zugreifen.           
+                    // zugreifen.
                     schnecke01.Ausscheiden();
                     // ILebewesen enthält keine Definition für Schleimen(). Darum gibt es Kompilierfehler:
                     //schnecke01.Schleimen();
 
-                    // Die Schnecke vom Typ Schnecke kann dagegen selbstverständlich auf 
+                    // Die Schnecke vom Typ Schnecke kann dagegen selbstverständlich auf
                     // alle member der Klasse Schnecke zugreifen:
                     schnecke02.Schleimen();
 
 
                     // Instanziere eine Klasse, welche zwei Schnittstellen implementiert hat, welche diesselbe Methode bereitstellen:
                     var testClass = new TestClass();
-                    testClass.InterfaceMethod();
+                    //testClass.InterfaceMethod();
+
+                    // Expliziter Interfaceaufruf mittels typecasting:
+                    ((I1)testClass).InterfaceMethod();
+
+                    ((I2)testClass).InterfaceMethod();
                 }
             }
         }

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_Interfaces", "Interfaces\_01_Interfaces.csproj", "{D6C42317-76D8-4EE9-AD99-FB8AC4BC798C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1000_Playground", "_1000_Playground\_1000_Playground.csproj", "{D2CEB799-EBF9-4CF4-AACF-94D854769486}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_Interfaces_Playground", "_1000_Playground\_01_Interfaces_Playground.csproj", "{D2CEB799-EBF9-4CF4-AACF-94D854769486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
